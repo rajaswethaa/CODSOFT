@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width", initial-scale="1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Personal portfolio website</title>
+   <link rel="preconnect" href="http://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.css" rel="stylesheet">
+</head>
+<style>
+  html {
+      scroll-behavior: smooth;
+  }
+</style>
+<body>
+     <header>
+         <a href="#"  class="logo">SWETHA</a>
+         <ul class="navlist">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SKILLS</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">CONTACT ME</a></li>
+         </ul>
+         <div class="nav-right">
+          <a href="#" class="nav-btn">Hire me!</a>
+          <div class="bx bx-menu" id="menu-icon"></div>
+         </div>
+      </header>
+      <section class="hero">
+        <div class="hero-text">
+          <h5>Hello ,  <span>my name is</span></h5>
+          <h1><span>Rajaswetha</span>  Earla</h1>
+          <h4>Developer & Designer</h4>
+          <p> from  vijayawada,Andhra pradesh.I am a dedicated
+             front-end developer with a passion for crafting highly interactive web applications.</p>
+             <div class="hero-icons">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-line"></i></a>
+             </div>
+             <div class="hero-btn">
+              <a href="images/My Resume.pdf" class="resume-download" download>Download Resume</a>
+              <a href="#" class="btn1">My Skills</a>
+             </div>
+            </div>
+            <div class="hero-img">
+              <img src="images/port.jpg">
+            </div>
+      </section>
+      <section class="about-me">
+         <h2>About Me</h2>
+         <div class="about-content">
+           <div class="about-img">
+             <img src="images/port2.jpg" alt="About Me Image">
+           </div>
+           <div class="about-text">
+             <p>Hello! I'm Rajaswetha Earla, a passionate Developer & Designer based in Vijayawada, Andhra Pradesh. I specialize in front-end development and love to create interactive and user-friendly web applications. With a keen eye for design and a strong foundation in coding, I aim to deliver seamless digital experiences. When I'm not coding, you can find me exploring new design trends and honing my skills. I'm always eager to take on new challenges and collaborate with like-minded professionals.</p>
+             <button class="experience-button">Experience</button>
+           </div>
+         </div>
+       </section>
+       <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-content">
+          <div class="skill">
+            <i class="fas fa-code"></i>
+            <h3>Front-End Development</h3>
+            <p>HTML, CSS, JavaScript, React</p>
+          </div>
+          <div class="skill">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Design</h3>
+            <p>Photoshop, Illustrator, Figma</p>
+          </div>
+          <div class="skill">
+            <i class="fas fa-database"></i>
+            <h3>Back-End Development</h3>
+            <p>Node.js, Express, MongoDB</p>
+          </div>
+          <div class="skill">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Mobile Development</h3>
+            <p>React Native, Flutter</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="projects">
+      <h1>Projects</h1>
+      <div class="projects-content">
+        <div class="project">
+          <img src="images/project1.jpg" alt="Project 1">
+          <div class="project-info">
+            <h2>Hospital Management System</h2>
+            <p>Brief description of the project. This can be a web application, a design project, or any other type of project.</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/project2.jpg" alt="Project 2">
+          <div class="project-info">
+            <h2>Academic evaluation system </h2>
+            <p>This project allows you to create a system of assessment that uses fuzzy logic to assess student academic achievement.</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/project3.png" alt="Project 3">
+          <div class="project-info">
+            <h2>Face detection and recognition</h2>
+            <p>Surveillance methods that use face detection and recognition are very common. They recognise and examine distinguishing facial features. Face detection using principal component analysis is an effective method. </p>
+          </div>
+        </div>
+      </div>
+      <div class="more-projects">
+        <button class="more-projects-btn">More Projects</button>
+      </div>
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions, feel free to reach out to me by filling out the form below or using the contact information provided.</p>
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:your-email@example.com">swetha123@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+1234567890">+91 987 654 3310</a></p>
+        </div>
+        <form class="contact-form" action="path/to/your/form/handler" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+      </section>
+      <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2024 Your Name. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="https://www.linkedin.com/in/raja-swetha-earla-a950982ab/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/rajaswethaa" target="_blank">GitHub</a>
+            <a href="path/to/your/twitter"  target="_blank">Twitter</a>
+            <a href="mailto:your-email@example.com">Contact</a>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html> 
